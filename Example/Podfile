@@ -1,0 +1,7 @@
+use_frameworks!
+target 'WZPushNotificationRequest_Tests' do
+  pod 'WZPushNotificationRequest', :path => '../'
+  
+  pod 'Specta'
+  pod 'Expecta'
+end
